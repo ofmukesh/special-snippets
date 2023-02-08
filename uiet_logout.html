@@ -92,21 +92,30 @@
         }
 
 
-
+        button {
+            color: rgb(255, 255, 255);
+            display: inline-block;
+            text-align: center;
+            vertical-align: middle;
+            cursor: pointer;
+            border: 1px solid transparent;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+        }
 
         .logout {
-            display: flex;
-            justify-content: center;
-            align-items: center;
+
             height: 37px;
             width: 77px;
             background-color: #dae8f1;
             margin-left: 495px;
             margin-top: 76px;
+            font-size: 16px;
             border-radius: 20px;
             color: rgba(0, 0, 0, 0.69);
 
         }
+
+
 
         .logout:hover {
             background-color: #c2dded;
@@ -221,10 +230,11 @@
 
 
         <a href="">
-            <div class="logout">
+            <button class="logout">
                 Logout
-            </div>
+            </button>
         </a>
+
 
 
 
